@@ -4,6 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        #p{
+            border: 2px solid grey;
+            width: 200px;
+            padding: 30px;
+            background-color: yellow;
+        }
+        #c{
+            width: 100px;
+            background-color: blue;
+            padding: 20px;
+            color: white;
+        }
+    </style>
 </head>
 <body>
 
@@ -15,7 +29,21 @@
     <!-- <button id="btn">Add to cart</button> -->
 
     <!-- addEventListener -->
-     <button id="btn">Enroll Course</button>
+    <!-- <button id="btn">Enroll Course</button> -->
+
+
+    <!-- // Event Object -->
+    <!-- <button id="x">Follow</button>
+    <button>Like</button> -->
+
+
+    <div id="p">
+        Parent
+        <div id="c">
+            Child
+            <button id="gc">Grand Child</button>
+        </div>
+    </div>
 
     <script src="./script.js"></script>
 </body>
